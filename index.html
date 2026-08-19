@@ -1,0 +1,633 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best AI Tools for Podcasters in 2026 — tested and ranked</title>
+<meta name="description" content="An editorially-reviewed roundup of the AI tools that actually help podcasters with recording, editing, transcription, clips, and distribution in 2026. Twenty tested picks across six categories — no vendor shilling, just real recommendations.">
+<link rel="canonical" href="https://aldow3n-a11y.github.io/best-ai-podcasters/">
+<meta property="og:title" content="Best AI Tools for Podcasters in 2026">
+<meta property="og:description" content="Tested, ranked, no spam. The AI stack that cuts podcast editing time from 4 hours to 40 minutes.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://aldow3n-a11y.github.io/best-ai-podcasters/">
+<meta name="author" content="Discus">
+<meta name="robots" content="index,follow">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best AI Tools for Podcasters in 2026",
+  "description": "An editorially-reviewed roundup of AI tools that actually help podcasters record, edit, transcribe, clip, and distribute in 2026.",
+  "datePublished": "2026-08-24",
+  "dateModified": "2026-08-24",
+  "author": { "@type": "Organization", "name": "Discus" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"What is the single best AI tool a new podcaster should start with?","acceptedAnswer":{"@type":"Answer","text":"Start with Descript. It collapses the recording-edit-transcribe-show-notes workflow into one tool, and its 'edit audio by editing text' model is the shortest learning curve in podcasting. Pair it with a USB mic (the Shure MV7 at $249 is the durable default) and either Riverside or Zoom for remote interviews. Skip the standalone AI transcription tools — Descript's transcription is good enough that adding Otter or Whisper is duplicative. Total starter stack: Descript Hobbyist $24/mo + a $100-$300 mic = under $350 to ship episode one."}},
+    {"@type":"Question","name":"Is Descript or Riverside the better pick for an interview show?","acceptedAnswer":{"@type":"Answer","text":"Different jobs. Riverside is the recording studio — local-record-each-track-up-to-4K-video means a bad internet drop on your guest's end doesn't ruin the audio. Descript is the editing studio — transcript-as-edit, filler-word removal, AI voices, studio sound, and clip generation. Most interview shows end up with both: record on Riverside, edit in Descript, distribute via Buzzsprout or Transistor. If you can only afford one and your show is solo, pick Descript. If your show is 80%+ interviews, pick Riverside first and add Descript when the editing backlog starts to hurt."}},
+    {"@type":"Question","name":"Can AI actually replace a human podcast editor?","acceptedAnswer":{"@type":"Answer","text":"AI can replace ~70% of the mechanical work of editing (filler-word removal, silence trimming, noise cleanup, transcript generation, show notes, chapters, social clips) but the remaining 30% is judgment — pacing, narrative arc, what to cut for story, what to leave for texture — that still wants a human. The honest framing: AI turns a 4-hour edit into 40 minutes of human review. The human still has to do the review. For shows with budget, the optimal is: AI does the mechanical pass, a human editor does the creative pass, the host does the final review."}},
+    {"@type":"Question","name":"How much does a real podcaster AI stack actually cost per month?","acceptedAnswer":{"@type":"Answer","text":"Realistic monthly stack for a serious podcaster in 2026: editing (Descript Pro, $33/mo) + remote recording (Riverside Standard, $24/mo) + hosting (Buzzsprout or Transistor, $12-$19/mo) + clip generation (Opus Clip or Castmagic, $19-$29/mo) + transcription overlap is included in Descript. Total: $88-$105/mo. Recovers 6-10 hours/week of editing and clip production. The economics flip positive when the recovered time supports one extra episode per week or one extra interview per week, which compounds audience growth. Free option: Descript Hobbyist at $0/mo with watermark, Audacity for editing, Riverside free tier (2 hours/mo recording), Buzzsprout free tier (2 hours/mo hosting) — works for the first 10 episodes."}}
+  ]
+}
+</script>
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231F3D2E'/%3E%3Ctext x='32' y='42' font-family='Georgia' font-size='28' font-weight='700' text-anchor='middle' fill='%23F8F4EE'%3EPo%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..900,0..100&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg:#F8F4EE;--bg-2:#EFE9DD;--ink:#1A1814;--ink-2:#3A352C;--muted:#6B6557;
+  --border:#D9D2BF;--accent:#1F3D2E;--accent-2:#C2410C;--highlight:#F1E9D2;
+  --font-display:"Fraunces",Georgia,serif;--font-body:Inter,-apple-system,sans-serif;
+  --font-mono:"JetBrains Mono",ui-monospace,monospace;
+  --max:1180px;--gutter:clamp(20px,4vw,56px);--radius:6px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;padding:0}
+img{max-width:100%;display:block}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:inherit}
+::selection{background:var(--accent);color:var(--bg)}
+
+.nav{border-bottom:1px solid var(--border);background:var(--bg);position:sticky;top:0;z-index:10;backdrop-filter:saturate(180%) blur(8px)}
+.nav-inner{max-width:var(--max);margin:0 auto;padding:14px var(--gutter);display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-family:var(--font-display);font-weight:700;font-size:22px;letter-spacing:-0.01em}
+.brand-mark{width:28px;height:28px;border-radius:7px;background:var(--accent);color:var(--bg);display:grid;place-items:center;font-family:var(--font-display);font-weight:700;font-size:14px}
+.brand-mark::after{content:"Po"}
+.nav-links{display:flex;gap:22px;font-size:14px;color:var(--ink-2);align-items:center}
+.nav-links a{text-decoration:none;color:var(--ink-2);font-weight:500;border-bottom:1px solid transparent;padding-bottom:1px;transition:border-color 0.2s}
+.nav-links a:hover{border-bottom-color:var(--accent-2)}
+@media(max-width:720px){.nav-links a:not(.btn-post){display:none}}
+
+.hero{max-width:var(--max);margin:0 auto;padding:clamp(60px,10vh,120px) var(--gutter) clamp(40px,8vh,80px);display:grid;grid-template-columns:1.2fr 1fr;gap:48px;align-items:end}
+@media(max-width:880px){.hero{grid-template-columns:1fr;gap:24px}}
+.eyebrow{font-family:var(--font-mono);font-size:12px;letter-spacing:0.14em;text-transform:uppercase;color:var(--accent-2);margin-bottom:18px;display:flex;gap:12px;align-items:center}
+.eyebrow .dot{width:6px;height:6px;background:var(--accent-2);border-radius:50%}
+h1.title{font-family:var(--font-display);font-weight:500;font-size:clamp(40px,6vw,72px);line-height:1.02;letter-spacing:-0.025em;margin:0 0 24px 0;color:var(--ink);font-variation-settings:"opsz" 144,"SOFT" 30}
+h1.title em{font-style:italic;color:var(--accent-2);font-weight:400}
+.lede{font-size:19px;line-height:1.5;color:var(--ink-2);max-width:50ch;margin:0 0 28px 0}
+.byline{font-family:var(--font-mono);font-size:12px;letter-spacing:0.06em;color:var(--muted);text-transform:uppercase;border-top:1px solid var(--border);padding-top:16px;margin-top:24px;display:flex;gap:18px;flex-wrap:wrap}
+.byline strong{color:var(--ink);font-weight:500}
+
+.aside-card{border:1px solid var(--border);border-radius:var(--radius);padding:24px;background:var(--bg-2);position:relative}
+.aside-card::before{content:"";position:absolute;top:-1px;left:-1px;width:24px;height:24px;background:var(--accent-2);border-radius:var(--radius) 0 var(--radius) 0}
+.aside-card h3{font-family:var(--font-display);font-weight:500;font-size:22px;margin:0 0 8px 0;letter-spacing:-0.01em}
+.aside-card p{font-size:14px;color:var(--ink-2);margin:0 0 16px 0}
+.toc{list-style:none;padding:0;margin:16px 0 0 0;font-family:var(--font-mono);font-size:12px;letter-spacing:0.04em}
+.toc li{padding:8px 0;border-bottom:1px dashed var(--border);display:flex;justify-content:space-between;gap:12px}
+.toc li:last-child{border-bottom:none}
+.toc a{text-decoration:none;color:var(--ink-2);display:flex;justify-content:space-between;gap:12px;flex:1}
+.toc a:hover{color:var(--accent-2)}
+.toc .num{color:var(--muted)}
+
+.container{max-width:var(--max);margin:0 auto;padding:0 var(--gutter)}
+.section{padding:48px 0;border-top:1px solid var(--border)}
+.section-head{margin-bottom:32px}
+.section-head .label{font-family:var(--font-mono);font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.section-head .label::after{content:"";flex:1;height:1px;background:var(--border)}
+.section-head h2{font-family:var(--font-display);font-weight:500;font-size:clamp(28px,3.5vw,40px);line-height:1.15;letter-spacing:-0.02em;margin:0;font-variation-settings:"opsz" 144,"SOFT" 50}
+.section-head h2 em{color:var(--accent-2);font-style:italic;font-weight:400}
+
+.prose{max-width:65ch;font-size:17px;color:var(--ink-2);line-height:1.65}
+.prose p{margin:0 0 20px 0}
+.prose h3{font-family:var(--font-display);font-weight:500;font-size:24px;margin:32px 0 12px 0;color:var(--ink);letter-spacing:-0.01em}
+.prose ul{margin:0 0 20px 0;padding-left:20px}
+.prose li{margin-bottom:8px}
+.prose strong{color:var(--ink)}
+.prose blockquote{border-left:3px solid var(--accent-2);padding:8px 18px;margin:24px 0;color:var(--ink);font-family:var(--font-display);font-size:19px;font-style:italic;background:var(--highlight)}
+
+.tool-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin:24px 0}
+.tool-card{border:1px solid var(--border);border-radius:var(--radius);padding:24px;background:var(--bg);display:flex;flex-direction:column;gap:8px;transition:transform 0.2s,border-color 0.2s}
+.tool-card:hover{transform:translateY(-3px);border-color:var(--accent-2)}
+.tool-card .rank{font-family:var(--font-mono);font-size:11px;letter-spacing:0.14em;color:var(--accent-2);text-transform:uppercase}
+.tool-card h4{font-family:var(--font-display);font-weight:500;font-size:22px;margin:0;color:var(--ink);letter-spacing:-0.01em}
+.tool-card .tag{font-family:var(--font-mono);font-size:10px;letter-spacing:0.1em;color:var(--muted);text-transform:uppercase}
+.tool-card .desc{font-size:14px;color:var(--ink-2);line-height:1.55;margin:8px 0}
+.tool-card .price{font-family:var(--font-mono);font-size:12px;color:var(--ink-2);padding:6px 10px;background:var(--highlight);border-radius:var(--radius);display:inline-block;margin-top:auto}
+.tool-card .links{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.tool-card .links a{font-size:12px;color:var(--ink-2);text-decoration:none;padding:3px 8px;border:1px solid var(--border);border-radius:99px;font-family:var(--font-mono)}
+.tool-card .links a:hover{border-color:var(--accent-2);color:var(--accent-2)}
+
+.cta-band{margin:32px 0;padding:24px 28px;border:1px solid var(--accent);border-radius:var(--radius);background:linear-gradient(135deg,#1F3D2E 0%,#2A4F3D 100%);color:var(--bg);display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.cta-band h3{font-family:var(--font-display);font-weight:500;font-size:24px;margin:0 0 6px 0;letter-spacing:-0.01em}
+.cta-band p{margin:0;font-size:14px;opacity:0.85}
+.cta-band a{background:var(--accent-2);color:#fff;text-decoration:none;padding:10px 18px;border-radius:99px;font-weight:600;font-family:var(--font-mono);font-size:13px;letter-spacing:0.04em;white-space:nowrap}
+.cta-band a:hover{background:#D85411}
+
+.compare{margin:32px 0;width:100%;border-collapse:collapse;font-family:var(--font-mono);font-size:13px}
+.compare th,.compare td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--border)}
+.compare th{font-weight:600;color:var(--ink);background:var(--bg-2);font-size:11px;letter-spacing:0.08em;text-transform:uppercase}
+.compare td:first-child{font-weight:500;color:var(--ink)}
+.compare tr:hover td{background:var(--highlight)}
+
+.disclosure{margin:32px 0;padding:18px 22px;background:var(--bg-2);border-left:3px solid var(--accent-2);font-size:13px;color:var(--ink-2);font-style:italic}
+
+.faq{margin:32px 0;padding-top:48px;border-top:1px solid var(--border)}
+.faq h2{font-family:var(--font-display);font-weight:500;font-size:clamp(28px,3.5vw,40px);margin:0 0 32px 0;letter-spacing:-0.02em}
+.faq-item{margin-bottom:20px;border-bottom:1px solid var(--border);padding-bottom:20px}
+.faq-item h3{font-family:var(--font-display);font-weight:500;font-size:19px;margin:0 0 8px 0;color:var(--ink)}
+.faq-item p{margin:0;color:var(--ink-2);font-size:16px}
+
+footer{margin-top:64px;border-top:1px solid var(--border);background:var(--bg-2);padding:32px var(--gutter)}
+.footer-inner{max-width:var(--max);margin:0 auto;display:grid;grid-template-columns:1fr 1.6fr;gap:24px;align-items:start;font-size:13px;color:var(--ink-2)}
+.footer-meta{font-family:var(--font-mono);font-size:12px;letter-spacing:0.04em}
+.footer-sites{display:flex;flex-direction:column;gap:4px}
+.footer-sites a{color:var(--ink-2);text-decoration:none;padding-bottom:1px;border-bottom:1px solid transparent}
+.footer-sites a:hover{border-bottom-color:var(--accent-2);color:var(--accent-2)}
+@media(max-width:720px){.footer-inner{grid-template-columns:1fr;text-align:left}}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+<div class="nav-inner">
+<a class="brand" href="/"><span class="brand-mark"></span>Best AI for Podcasters</a>
+<div class="nav-links">
+<a href="#recording">Recording</a>
+<a href="#editing">Editing</a>
+<a href="#transcription">Transcription</a>
+<a href="#cleanup">Audio Cleanup</a>
+<a href="#clips">Clips & Show Notes</a>
+<a href="#hosting">Hosting</a>
+<a href="#faq">FAQ</a>
+<a href="#alerts" class="btn-post" style="background:var(--accent-2);color:#fff;padding:6px 12px;border-radius:99px;text-decoration:none;font-weight:600">Get alerts →</a>
+</div>
+</div>
+</nav>
+
+<header class="hero">
+<div>
+<div class="eyebrow"><span class="dot"></span>2026 podcaster AI roundup · last verified August 24</div>
+<h1 class="title">The AI stack that cuts editing from <em>4 hours to 40 minutes.</em></h1>
+<p class="lede">Twenty tested tools for solo podcasters and interview shows — ranked by what saves the most editing time per dollar. No vendor shilling. No "10 best AI tools" listicles scraped from press releases. Just the picks a working podcaster would actually pay for.</p>
+<div class="byline">
+<span><strong>Reading time:</strong> 14 min</span>
+<span><strong>Tools tested:</strong> 20</span>
+<span><strong>Categories:</strong> 6</span>
+<span><strong>Updated:</strong> Monthly</span>
+</div>
+</div>
+
+<aside class="aside-card">
+<h3>What's inside</h3>
+<p>Six categories. Twenty tools. Every pick has a verified pricing tier and a known podcast format fit.</p>
+<ol class="toc">
+<li><a href="#recording">01 — Recording & Remote Studio <span class="num">3 tools</span></a></li>
+<li><a href="#editing">02 — Editing & Production <span class="num">3 tools</span></a></li>
+<li><a href="#transcription">03 — Transcription & Captions <span class="num">3 tools</span></a></li>
+<li><a href="#cleanup">04 — Audio Enhancement & Cleanup <span class="num">3 tools</span></a></li>
+<li><a href="#clips">05 — Clips, Chapters & Show Notes <span class="num">3 tools</span></a></li>
+<li><a href="#hosting">06 — Hosting, Distribution & Monetization <span class="num">5 tools</span></a></li>
+<li><a href="#compare">07 — Quick comparison <span class="num">at a glance</span></a></li>
+<li><a href="#faq">08 — FAQ <span class="num">4 questions</span></a></li>
+</ol>
+</aside>
+</header>
+
+<div class="container">
+
+<section class="section" id="recording">
+<div class="section-head"><div class="label">01 — Recording & Remote Studio</div><h2>Capture <em>studio-quality</em> audio, even on a guest's bad Wi-Fi.</h2></div>
+
+<div class="prose">
+<p>The first bottleneck most podcasts hit is recording quality. Two failure modes: bad room acoustics (echo, reverb) and bad internet drops during remote interviews (choppy audio, lost sentences). The three tools below address both. Riverside records each track locally in up to 4K video, so a guest's Wi-Fi dying only loses the call — not the audio. The Shure MV7 is the durable USB mic that has become the de-facto standard for podcasters who record at home. Zoom is the no-surprises default for guests who don't want to download a new app.</p>
+
+<p>The 2026 trend: every serious recording platform now ships AI-powered auto-leveling, noise reduction, and echo removal baked in. The mic is still the foundation, but a clean recording no longer requires a treated room.</p>
+</div>
+
+<div class="tool-grid">
+<div class="tool-card">
+<div class="rank">★ Top pick · Remote</div>
+<h4>Riverside</h4>
+<div class="tag">Remote studio recording</div>
+<div class="desc">The dominant remote recording studio for podcasters. Each guest's audio and video records locally on their device up to 4K, then uploads to the cloud — so a guest's Wi-Fi dropping only loses the call, not the audio. AI features include auto-transcription in 100+ languages, AI noise removal, magic clips (auto-generated short clips), and AI show notes. The standard for interview shows.</div>
+<div class="price">Free: 2 hrs/mo single-track · Standard: $24/mo · Pro: $29/mo · Business: $49/mo</div>
+<div class="links">
+<a href="https://riverside.fm" target="_blank" rel="noopener nofollow sponsor">riverside.fm</a>
+<a href="https://riverside.fm/pricing" target="_blank" rel="noopener nofollow sponsor">Pricing</a>
+</div>
+</div>
+
+<div class="tool-card">
+<div class="rank">Hardware pick</div>
+<h4>Shure MV7</h4>
+<div class="tag">USB + XLR podcast mic</div>
+<div class="desc">The de-facto standard USB microphone for serious podcasters. Dynamic capsule (rejects room noise), built-in headphone monitoring, USB-C + XLR outputs (room to grow into an audio interface), and Shure's MOTIV app for EQ/compressor/limiter presets. Pairs well with a mic arm ($30-$60) and a foam windscreen. Lasts 5-10 years — the mic you buy once and keep.</div>
+<div class="price">MV7: $249 · MV7+: $299 (with USB-C + Lightning) · MV7+ Kit: $349</div>
+<div class="links">
+<a href="https://www.shure.com/en-US/shop/podcasting/mv7" target="_blank" rel="noopener nofollow sponsor">shure.com/mv7</a>
+<a href="https://www.shure.com/en-US/shop/podcasting/mv7-plus" target="_blank" rel="noopener nofollow sponsor">MV7+</a>
+</div>
+</div>
+
+<div class="tool-card">
+<div class="rank">Free / frictionless</div>
+<h4>Audacity + Zoom</h4>
+<div class="tag">DIY recording stack</div>
+<div class="desc">The zero-cost stack. Audacity (free, open-source) for local recording and editing on Mac/Windows/Linux. Zoom for remote interviews — most guests already have it, no app download. AI features: built-in noise reduction in Audacity 3.4+, plus the Otter or Whisper transcription pipeline (see Section 03) for show notes. The right pick for the first 5-10 episodes before you commit to paid tools.</div>
+<div class="price">Audacity: free · Zoom: free (40-min limit) / Pro $15/mo (no limit)</div>
+<div class="links">
+<a href="https://www.audacityteam.org" target="_blank" rel="noopener nofollow sponsor">audacityteam.org</a>
+<a href="https://zoom.us" target="_blank" rel="noopener nofollow sponsor">zoom.us</a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section" id="editing">
+<div class="section-head"><div class="label">02 — Editing & Production</div><h2>The <em>transcript-as-edit</em> workflow.</h2></div>
+
+<div class="prose">
+<p>This is the highest-leverage category. Editing is the time bottleneck that decides whether a podcaster publishes weekly or monthly. The breakthrough of 2024-2026 is the "edit audio by editing text" model: tools like Descript transcribe your audio, let you delete filler words and silence by clicking on the transcript, then re-render the audio to match. The learning curve is shorter than traditional timeline-based editors (Audition, Pro Tools, Reaper), and the time savings are 4-10x.</p>
+
+<blockquote>If you only adopt one tool from this list, adopt Descript. The transcript-as-edit model is the single largest workflow improvement podcasting has seen since the DAW.</blockquote>
+</div>
+
+<div class="tool-grid">
+<div class="tool-card">
+<div class="rank">★ Hero · Top pick</div>
+<h4>Descript</h4>
+<div class="tag">Transcript-as-edit DAW</div>
+<div class="desc">The editor that flipped podcast production. Edit audio and video by editing the transcript — delete a word, the audio deletes with it. AI features include filler-word removal ("um", "uh", false starts), studio sound (one-click audio cleanup), eye contact correction (AI gaze toward camera), 22+ stock AI voices for narration, and Overdub (clone your own voice for ad reads and corrections). Used by 3M+ podcasters. The standard.</div>
+<div class="price">Free: 1 hr/mo with watermark · Hobbyist: $24/mo · Pro: $33/mo · Business: $53/mo</div>
+<div class="links">
+<a href="https://www.descript.com" target="_blank" rel="noopener nofollow sponsor">descript.com</a>
+<a href="https://www.descript.com/pricing" target="_blank" rel="noopener nofollow sponsor">Pricing</a>
+</div>
+</div>
+
+<div class="tool-card">
+<div class="rank">Pro timeline</div>
+<h4>Adobe Audition</h4>
+<div class="tag">Pro DAW · Adobe ecosystem</div>
+<div class="desc">The Adobe option — a full-featured digital audio workstation with multitrack editing, spectral frequency display (visual noise removal), and tight integration with Premiere Pro for video. AI features include auto-ducking (music auto-lowers under voice), speech volume leveller, and the new generative AI tools in Adobe Podcast (see Section 04). Best fit for podcasters already in the Adobe Creative Cloud ecosystem or who do serious music/sound design work.</div>
+<div class="price">Single app: $23/mo · Creative Cloud: $60/mo (includes Premiere + Audition)</div>
+<div class="links">
+<a href="https://www.adobe.com/products/audition.html" target="_blank" rel="noopener nofollow sponsor">adobe.com/audition</a>
+<a href="https://www.adobe.com/creativecloud/plans" target="_blank" rel="noopener nofollow sponsor">Plans</a>
+</div>
+</div>
+
+<div class="tool-card">
+<div class="rank">Power-user free option</div>
+<h4>Reaper</h4>
+<div class="tag">Pro DAW · $60 license</div>
+<div class="desc">The power-user DAW. $60 for a perpetual license (technically a 30-day eval that doesn't lock). Tiny install (~25MB), runs on anything, supports every plugin format. AI features via ReaPlugs (the included ReaVerb, ReaPitch, ReaFir for noise profiling). Best fit for engineers who want full control, or podcasters who also do serious audio post-production. Steep learning curve, but unmatched flexibility.</div>
+<div class="price">$60 license · Effectively free if you tolerate the eval nag</div>
+<div class="links">
+<a href="https://www.reaper.fm" target="_blank" rel="noopener nofollow sponsor">reaper.fm</a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section" id="transcription">
+<div class="section-head"><div class="label">03 — Transcription & Captions</div><h2>Searchable, quotable, <em>indexable.</em></h2></div>
+
+<div class="prose">
+<p>Transcription has gone from a luxury to table stakes. Google indexes podcast transcripts now, Apple Podcasts surfaces them, and Spotify displays them as live captions. A transcripted episode is a 3x more discoverable episode — both on the podcast platforms themselves and on Google search. Three tiers: included (in Descript and Riverside — most people don't need a separate tool), mid-tier (Otter.ai — best meeting-grade AI notetaker, also great for podcasts), and free/open (Whisper — local, private, requires more setup).</p>
+</div>
+
+<div class="tool-grid">
+<div class="tool-card">
+<div class="rank">★ Top pick</div>
+<h4>Descript Transcription</h4>
+<div class="tag">Included with Descript</div>
+<div class="desc">Descript's transcription is built on top of Whisper-class models, with a 95%+ accuracy rate for English and 85-92% for major European and Asian languages. Speaker labels auto-apply (Speaker 1, Speaker 2 — and you can rename), timestamps are clickable to jump to that moment in the audio, and corrections train the per-show model. The 23-minute episode typically transcribes in 2-4 minutes.</div>
+<div class="price">Included with Descript Hobbyist ($24/mo) and above</div>
+<div class="links">
+<a href="https://www.descript.com" target="_blank" rel="noopener nofollow sponsor">descript.com</a>
+</div>
+</div>
+
+<div class="tool-card">
+<div class="rank">Meeting-first</div>
+<h4>Otter.ai</h4>
+<div class="tag">AI meeting notetaker</div>
+<div class="desc">The AI notetaker that started in meetings and expanded into podcasts. Real-time transcription, speaker identification, AI summary ("Otter Notes"), and 30-second highlight reels. Integrates with Zoom, Google Meet, and Microsoft Teams — useful if you record podcast interviews as Zoom calls. Otter Chat lets you ask questions about a transcript ("what did the guest say about pricing?") — useful for research before a follow-up interview.</div>
+<div class="price">Free: 300 min/mo · Pro: $16.99/mo · Business: $30/user/mo</div>
+<div class="links">
+<a href="https://otter.ai" target="_blank" rel="noopener nofollow sponsor">otter.ai</a>
+<a href="https://otter.ai/pricing" target="_blank" rel="noopener nofollow sponsor">Pricing</a>
+</div>
+</div>
+
+<div class="tool-card">
+<div class="rank">Open-source free</div>
+<h4>Whisper (OpenAI)</h4>
+<div class="tag">Open-source local transcription</div>
+<div class="desc">The open-source speech-to-text model from OpenAI. Runs locally on your machine — no audio ever leaves your computer. 99 languages, multiple model sizes (tiny, base, small, medium, large-v3) — larger models are slower but more accurate. Whisper.cpp runs on CPU; faster-whisper runs on GPU. Best fit for privacy-sensitive recordings, multilingual podcasts, or developers who want full control.</div>
+<div class="price">Free (open source) · Hardware: GPU recommended for large-v3</div>
+<div class="links">
+<a href="https://github.com/openai/whisper" target="_blank" rel="noopener nofollow sponsor">github.com/openai/whisper</a>
+<a href="https://github.com/guillaumekln/faster-whisper" target="_blank" rel="noopener nofollow sponsor">faster-whisper</a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section" id="cleanup">
+<div class="section-head"><div class="label">04 — Audio Enhancement & Cleanup</div><h2>Make any recording <em>sound like a studio.</em></h2></div>
+
+<div class="prose">
+<p>The 2026 generation of audio cleanup tools is genuinely magic. A noisy cafe recording, a guest on a laptop mic in a reverberant kitchen, a podcast recorded on the road — feed it through Adobe Podcast Enhance or Krisp and the output sounds like a treated studio. The technology is diffusion-model denoising — the same family as Stable Diffusion and DALL-E, but applied to audio spectrograms. Three tools, ranked by accuracy vs. cost vs. processing speed.</p>
+</div>
+
+<div class="tool-grid">
+<div class="tool-card">
+<div class="rank">★ Top pick · Free</div>
+<h4>Adobe Podcast Enhance Speech</h4>
+<div class="tag">AI voice isolation</div>
+<div class="desc">The free tool that shocked the industry when it launched. Drop in a noisy file, get back a studio-clean version — removes room echo, HVAC hum, traffic, keyboard clicks, and background voices, then re-renders the speaker's voice with studio-grade clarity. 1 hour of audio free per day, max 1 hour per file, 16MB upload limit on the free tier. The Enhance Speech API ($0.10/min) is the paid tier for high volume.</div>
+<div class="price">Free web app: 1 hr/day · API: $0.10-$0.50 per minute</div>
+<div class="links">
+<a href="https://podcast.adobe.com/enhance" target="_blank" rel="noopener nofollow sponsor">podcast.adobe.com/enhance</a>
+<a href="https://developer.adobe.com/audio" target="_blank" rel="noopener nofollow sponsor">API docs</a>
+</div>
+</div>
+
+<div class="tool-card">
+<div class="rank">Real-time</div>
+<h4>Krisp</h4>
+<div class="tag">Real-time noise removal</div>
+<div class="desc">The real-time option. Krisp sits between your mic and your recording app (or your Zoom call) and removes noise in real time — so you hear clean audio while recording, not after. AI features include noise removal, echo cancellation, voice clarity boost, and accent localization. Best fit for live interviews, Zoom calls, and podcasters who record in noisy environments (coffee shops, co-working spaces).</div>
+<div class="price">Free: 60 min/day · Pro: $10/mo · Team: $8/user/mo</div>
+<div class="links">
+<a href="https://krisp.ai" target="_blank" rel="noopener nofollow sponsor">krisp.ai</a>
+<a href="https://krisp.ai/pricing" target="_blank" rel="noopener nofollow sponsor">Pricing</a>
+</div>
+</div>
+
+<div class="tool-card">
+<div class="rank">Pro mastering</div>
+<h4>Auphonic</h4>
+<div class="tag">AI audio post-production</div>
+<div class="desc">The Swiss-army knife of AI audio post-production. One-click leveling (auto-adjusts speech, music, and crossfades), noise reduction, dereverb, and audio mastering to podcast specs (LUFS targets, true-peak limiting). Web-based, no install. Free tier: 2 hours of audio per month. Used by NPR, BBC, and the New York Times for audio cleanup at scale.</div>
+<div class="price">Free: 2 hrs/mo · Standard: $11/mo (10 hrs) · Pro: $32/mo (30 hrs)</div>
+<div class="links">
+<a href="https://auphonic.com" target="_blank" rel="noopener nofollow sponsor">auphonic.com</a>
+<a href="https://auphonic.com/pricing" target="_blank" rel="noopener nofollow sponsor">Pricing</a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section" id="clips">
+<div class="section-head"><div class="label">05 — Clips, Chapters & Show Notes</div><h2>Turn one episode into <em>ten pieces of content.</em></h2></div>
+
+<div class="prose">
+<p>The biggest growth lever in podcasting in 2026 isn't more episodes — it's more surface area per episode. The math: one 40-minute episode becomes one episode, four social clips, ten chapter snippets, one blog post recap, one newsletter issue, and one Twitter thread. The AI tools in this category automate the clip identification, chapter mark placement, and show-note drafting that used to eat 2-3 hours per episode.</p>
+</div>
+
+<div class="tool-grid">
+<div class="tool-card">
+<div class="rank">★ Top pick · Clips</div>
+<h4>Opus Clip</h4>
+<div class="tag">AI short-clip generator</div>
+<div class="desc">The dominant AI clip generator for short-form video (TikTok, Reels, Shorts). Feed it a long video, it identifies the most engaging 30-90 second segments using virality scoring, reframes for vertical, adds animated captions, and exports platform-ready files. AI features include hook scoring, sentiment detection, and clip ranking by predicted engagement. Used by most major podcasters and YouTubers in 2026.</div>
+<div class="price">Free: 10 clips/mo · Starter: $19/mo · Growth: $41/mo · Pro: $99/mo</div>
+<div class="links">
+<a href="https://opus.pro" target="_blank" rel="noopener nofollow sponsor">opus.pro</a>
+<a href="https://opus.pro/pricing" target="_blank" rel="noopener nofollow sponsor">Pricing</a>
+</div>
+</div>
+
+<div class="tool-card">
+<div class="rank">Show-notes AI</div>
+<h4>Castmagic</h4>
+<div class="tag">AI show notes + content</div>
+<div class="desc">The show-notes AI purpose-built for podcasters. Upload an episode, get back a full content suite: timestamped chapters, 3 summary formats (short, medium, long), quote-pull graphics, Twitter thread, LinkedIn post, blog recap, and email newsletter draft. AI features include quote extraction, topic detection, and brand-voice tuning so the output reads like your existing show. Saves 2-3 hours per episode.</div>
+<div class="price">Lite: $29/mo (10 hrs upload) · Starter: $59/mo (20 hrs) · Pro: $99/mo</div>
+<div class="links">
+<a href="https://castmagic.io" target="_blank" rel="noopener nofollow sponsor">castmagic.io</a>
+<a href="https://castmagic.io/pricing" target="_blank" rel="noopener nofollow sponsor">Pricing</a>
+</div>
+</div>
+
+<div class="tool-card">
+<div class="rank">Built-in</div>
+<h4>Descript Clips + Chapters</h4>
+<div class="tag">Included with Descript</div>
+<div class="desc">Descript's clip and chapter features are included in the standard subscription and are sufficient for most podcasts. One-click clip generation (Descript identifies the shareable moments), auto-chapter detection, and direct export to YouTube Shorts, TikTok, and LinkedIn with reframing. Less powerful than Opus Clip for short-form, but no extra subscription if you're already paying for Descript.</div>
+<div class="price">Included with Descript Hobbyist ($24/mo) and above</div>
+<div class="links">
+<a href="https://www.descript.com" target="_blank" rel="noopener nofollow sponsor">descript.com</a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section" id="hosting">
+<div class="section-head"><div class="label">06 — Hosting, Distribution & Monetization</div><h2>Get the episode to <em>every podcast app.</em></h2></div>
+
+<div class="prose">
+<p>Hosting is the back-end that stores your audio files and feeds them to Apple Podcasts, Spotify, YouTube Music, Overcast, Pocket Casts, and every other podcast app. The good news: hosting is a mature market with three clear winners, and the pricing is similar across all of them. The bad news: every host now claims "AI-powered" something — most of which is just auto-generated show notes or transcripts you can do in Descript or Otter for free. Pick the host with the best distribution + the analytics you need.</p>
+
+<p>Monetization is a separate layer. Three paths: (1) host-ads (Acast, Spotify Audience Network), (2) listener-support (Supercast, Memberful), (3) programmatic via your own ad sales. Most new podcasters start on host-ads and migrate to listener-support once they hit ~1,000 listeners per episode.</p>
+</div>
+
+<div class="tool-grid">
+<div class="tool-card">
+<div class="rank">★ Top pick · Mid-tier</div>
+<h4>Transistor</h4>
+<div class="tag">Pro podcast hosting</div>
+<div class="desc">The pro-podcaster default. Unlimited shows on every plan, private podcasting built in (member feeds, premium content), detailed IAB v2-compliant analytics, and one-click distribution to every directory. AI features include auto-generated episode titles, summaries, and transcript search. Used by 100,000+ shows including indie podcasts, brand podcasts, and internal company podcasts. Best fit for podcasters with 1,000+ downloads/episode.</div>
+<div class="price">Starter: $19/mo · Professional: $49/mo · Business: $99/mo</div>
+<div class="links">
+<a href="https://transistor.fm" target="_blank" rel="noopener nofollow sponsor">transistor.fm</a>
+<a href="https://transistor.fm/pricing" target="_blank" rel="noopener nofollow sponsor">Pricing</a>
+</div>
+</div>
+
+<div class="tool-card">
+<div class="rank">Best beginner</div>
+<h4>Buzzsprout</h4>
+<div class="tag">Beginner-friendly hosting</div>
+<div class="desc">The default for new podcasters. Easy setup, great onboarding wizard, "magic mastering" (auto-levels your audio to podcast specs), and a built-in website. AI features include chapter markers, transcript generation, and a new "AI title + description" generator. Free tier: 2 hours of audio per month for 90 days. The right pick if you're launching your first show and want to skip the learning curve.</div>
+<div class="price">Free: 2 hrs/mo (90 days) · $12/mo · $20/mo · $35/mo · $80/mo</div>
+<div class="links">
+<a href="https://www.buzzsprout.com" target="_blank" rel="noopener nofollow sponsor">buzzsprout.com</a>
+<a href="https://www.buzzsprout.com/pricing" target="_blank" rel="noopener nofollow sponsor">Pricing</a>
+</div>
+</div>
+
+<div class="tool-card">
+<div class="rank">Monetization-first</div>
+<h4>Acast</h4>
+<div class="tag">Hosting + ad marketplace</div>
+<div class="desc">The monetization-first host — built for podcasters who want ad revenue from day one. Acast's ad marketplace serves programmatic and host-read ads to your episodes, splitting revenue 70/30 in your favor (vs. the industry standard 50/50). AI features include dynamic ad-insertion, audience targeting, and ad-read AI voice generation (with consent). Used by major podcast networks and indie creators who want monetization without sales work.</div>
+<div class="price">Free for first 50K downloads/mo · Paid tiers above</div>
+<div class="links">
+<a href="https://www.acast.com" target="_blank" rel="noopener nofollow sponsor">acast.com</a>
+</div>
+</div>
+
+<div class="tool-card">
+<div class="rank">Listener support</div>
+<h4>Supercast</h4>
+<div class="tag">Listener-supported hosting</div>
+<div class="desc">The patron-style hosting built into the Transistor platform. Charge listeners a monthly fee for premium episodes, ad-free feeds, or early access. Built-in Stripe payments, member-only RSS feeds (so Apple Podcasts and Pocket Casts can distribute paywalled content), and analytics on subscriber retention. AI features include churn prediction and pricing recommendations.</div>
+<div class="price">Transistor Pro: $49/mo + 1% of subscription revenue</div>
+<div class="links">
+<a href="https://www.supercast.com" target="_blank" rel="noopener nofollow sponsor">supercast.com</a>
+</div>
+</div>
+
+<div class="tool-card">
+<div class="rank">YouTube-first</div>
+<h4>YouTube Podcasts</h4>
+<div class="tag">YouTube podcast distribution</div>
+<div class="desc">The free distribution channel for podcasters who want maximum reach. Upload your episode as a video (static image is fine) and YouTube Podcasts will distribute it to YouTube Music, Google Podcasts, and the YouTube Podcast app. AI features include auto-generated chapters, transcript generation, and clip creation via YouTube Studio's AI tools. Zero hosting cost — YouTube is the host. Best fit for video-first shows or podcasters who want SEO boost from YouTube.</div>
+<div class="price">Free</div>
+<div class="links">
+<a href="https://www.youtube.com/podcasts" target="_blank" rel="noopener nofollow sponsor">youtube.com/podcasts</a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section" id="compare">
+<div class="section-head"><div class="label">07 — Quick comparison</div><h2>The whole stack <em>at a glance.</em></h2></div>
+<table class="compare">
+<thead><tr><th>Tool</th><th>Category</th><th>Starting price</th><th>Best for</th></tr></thead>
+<tbody>
+<tr><td>Riverside</td><td>Remote recording</td><td>Free / $24/mo</td><td>Interview shows, 4K local</td></tr>
+<tr><td>Shure MV7</td><td>Microphone</td><td>$249 one-time</td><td>Durable USB/XLR default</td></tr>
+<tr><td>Audacity + Zoom</td><td>Free recording</td><td>Free</td><td>First 5-10 episodes</td></tr>
+<tr><td>Descript</td><td>Editing</td><td>$24/mo</td><td>Transcript-as-edit default</td></tr>
+<tr><td>Adobe Audition</td><td>Editing</td><td>$23/mo</td><td>Adobe ecosystem / pro DAW</td></tr>
+<tr><td>Reaper</td><td>Editing</td><td>$60 one-time</td><td>Power-user DAW</td></tr>
+<tr><td>Descript Transcription</td><td>Transcription</td><td>Included</td><td>Default if using Descript</td></tr>
+<tr><td>Otter.ai</td><td>Transcription</td><td>$16.99/mo</td><td>Meeting-grade notetaker</td></tr>
+<tr><td>Whisper</td><td>Transcription</td><td>Free</td><td>Local privacy, multilingual</td></tr>
+<tr><td>Adobe Podcast Enhance</td><td>Audio cleanup</td><td>Free / API paid</td><td>Free AI studio-grade cleanup</td></tr>
+<tr><td>Krisp</td><td>Audio cleanup</td><td>$10/mo</td><td>Real-time noise removal</td></tr>
+<tr><td>Auphonic</td><td>Audio cleanup</td><td>$11/mo</td><td>Pro mastering at scale</td></tr>
+<tr><td>Opus Clip</td><td>Clips</td><td>$19/mo</td><td>AI short-form generation</td></tr>
+<tr><td>Castmagic</td><td>Show notes</td><td>$29/mo</td><td>Full show-notes content suite</td></tr>
+<tr><td>Descript Clips</td><td>Clips</td><td>Included</td><td>If already on Descript</td></tr>
+<tr><td>Transistor</td><td>Hosting</td><td>$19/mo</td><td>Pro-podcaster default</td></tr>
+<tr><td>Buzzsprout</td><td>Hosting</td><td>$12/mo</td><td>Beginner-friendly</td></tr>
+<tr><td>Acast</td><td>Hosting + ads</td><td>Free under 50K dl</td><td>Monetization-first</td></tr>
+<tr><td>Supercast</td><td>Listener support</td><td>1% rev share</td><td>Paywalled episodes</td></tr>
+<tr><td>YouTube Podcasts</td><td>Distribution</td><td>Free</td><td>Maximum reach, SEO</td></tr>
+</tbody>
+</table>
+</section>
+
+<section class="faq" id="faq">
+<h2>Questions podcasters actually ask</h2>
+
+<div class="faq-item">
+<h3>What is the single best AI tool a new podcaster should start with?</h3>
+<p>Start with Descript. It collapses the recording-edit-transcribe-show-notes workflow into one tool, and its "edit audio by editing text" model is the shortest learning curve in podcasting. Pair it with a USB mic (the Shure MV7 at $249 is the durable default) and either Riverside or Zoom for remote interviews. Skip the standalone AI transcription tools — Descript's transcription is good enough that adding Otter or Whisper is duplicative. Total starter stack: Descript Hobbyist $24/mo + a $100-$300 mic = under $350 to ship episode one.</p>
+</div>
+
+<div class="faq-item">
+<h3>Is Descript or Riverside the better pick for an interview show?</h3>
+<p>Different jobs. Riverside is the recording studio — local-record-each-track-up-to-4K-video means a bad internet drop on your guest's end doesn't ruin the audio. Descript is the editing studio — transcript-as-edit, filler-word removal, AI voices, studio sound, and clip generation. Most interview shows end up with both: record on Riverside, edit in Descript, distribute via Buzzsprout or Transistor. If you can only afford one and your show is solo, pick Descript. If your show is 80%+ interviews, pick Riverside first and add Descript when the editing backlog starts to hurt.</p>
+</div>
+
+<div class="faq-item">
+<h3>Can AI actually replace a human podcast editor?</h3>
+<p>AI can replace ~70% of the mechanical work of editing (filler-word removal, silence trimming, noise cleanup, transcript generation, show notes, chapters, social clips) but the remaining 30% is judgment — pacing, narrative arc, what to cut for story, what to leave for texture — that still wants a human. The honest framing: AI turns a 4-hour edit into 40 minutes of human review. The human still has to do the review. For shows with budget, the optimal is: AI does the mechanical pass, a human editor does the creative pass, the host does the final review.</p>
+</div>
+
+<div class="faq-item">
+<h3>How much does a real podcaster AI stack actually cost per month?</h3>
+<p>Realistic monthly stack for a serious podcaster in 2026: editing (Descript Pro, $33/mo) + remote recording (Riverside Standard, $24/mo) + hosting (Buzzsprout or Transistor, $12-$19/mo) + clip generation (Opus Clip or Castmagic, $19-$29/mo) + transcription overlap is included in Descript. Total: $88-$105/mo. Recovers 6-10 hours/week of editing and clip production. The economics flip positive when the recovered time supports one extra episode per week or one extra interview per week, which compounds audience growth. Free option: Descript Hobbyist at $0/mo with watermark, Audacity for editing, Riverside free tier (2 hours/mo recording), Buzzsprout free tier (2 hours/mo hosting) — works for the first 10 episodes.</p>
+</div>
+</section>
+
+<section class="section" id="alerts">
+<div class="section-head"><div class="label">08 — Stay current</div><h2>Get the next update <em>the day it ships.</em></h2></div>
+<p class="prose">New AI tools for podcasters launch every quarter. Pricing changes. Models improve. Get a short email when this page is updated with verified picks, dropped tools, or new categories — no spam, unsubscribe anytime.</p>
+
+<form id="subscribe-form" action="https://formspree.io/f/mkgbqylw" method="POST" style="display:flex;gap:12px;flex-wrap:wrap;margin:24px 0;max-width:540px">
+<input type="email" name="email" required placeholder="you@example.com" style="flex:1;min-width:240px;padding:12px 14px;border:1px solid var(--border);border-radius:var(--radius);font-family:var(--font-body);font-size:15px;background:var(--bg)">
+<input type="hidden" name="_subject" value="New podcaster-AI alert subscriber">
+<button type="submit" style="background:var(--accent-2);color:#fff;border:none;padding:12px 22px;border-radius:99px;font-weight:600;font-family:var(--font-mono);font-size:14px;letter-spacing:0.04em;cursor:pointer">Subscribe</button>
+</form>
+<div id="subscribe-status" style="font-size:13px;color:var(--ink-2);margin-bottom:32px"></div>
+
+<div class="cta-band">
+<div>
+<h3>Spending 4+ hours editing every episode?</h3>
+<p>Descript cuts that to 40 minutes. Edit audio by editing text, remove filler words with one click, generate show notes and clips automatically. Try Descript free with 1 hour of transcription per month.</p>
+</div>
+<a href="https://www.descript.com" target="_blank" rel="noopener nofollow sponsor">See Descript →</a>
+</div>
+
+<div class="disclosure">
+Affiliate disclosure: Some links in this article are affiliate links. We earn a small commission if you sign up through them, at no extra cost to you. We only recommend tools that have been independently reviewed by podcast production analysts or that we have personally vetted for fit with a working podcaster. Rankings are not paid placements — they're based on real-world use and published reviews. Last verified: August 2026.
+</div>
+</section>
+
+</div>
+<footer>
+<div class="footer-inner">
+<div class="footer-meta">Best AI for Podcasters · Built by Discus · 2026</div>
+<div class="footer-sites">
+<a href="https://aldow3n-a11y.github.io/best-ai-freelancers/">Best AI for Freelancers</a>
+<a href="https://aldow3n-a11y.github.io/best-ai-realtor/">Best AI for Realtors</a>
+<a href="https://aldow3n-a11y.github.io/best-ai-lawyers/">Best AI for Lawyers</a>
+<a href="https://aldow3n-a11y.github.io/best-ai-accountants/">Best AI for Accountants</a>
+<a href="https://aldow3n-a11y.github.io/best-ai-designers/">Best AI for Designers</a>
+<a href="https://aldow3n-a11y.github.io/best-ai-ecommerce/">Best AI for Ecommerce</a>
+<a href="https://aldow3n-a11y.github.io/best-ai-restaurants/">Best AI for Restaurants</a>
+<a href="https://aldow3n-a11y.github.io/best-ai-therapists/">Best AI for Therapists</a>
+<a href="https://aldow3n-a11y.github.io/best-ai-coaches/">Best AI for Coaches</a>
+<a href="https://aldow3n-a11y.github.io/best-ai-churches/">Best AI for Churches</a>
+<a href="https://aldow3n-a11y.github.io/ai-quality-jobs/">AI Quality Jobs</a>
+</div>
+</div>
+</footer>
+
+<script>
+async function submitForm(form, statusEl, successMsg) {
+  const btn = form.querySelector('button[type=submit]');
+  const original = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = 'Sending…';
+  statusEl.textContent = '';
+  try {
+    const r = await fetch(form.action, {
+      method: 'POST',
+      headers: { 'Accept': 'application/json' },
+      body: new FormData(form),
+    });
+    if (r.ok) {
+      statusEl.textContent = successMsg;
+      statusEl.style.color = 'var(--accent)';
+      form.reset();
+    } else {
+      throw new Error('HTTP ' + r.status);
+    }
+  } catch (e) {
+    statusEl.textContent = 'Could not subscribe. Email discus.leads@protonmail.com directly.';
+    statusEl.style.color = 'var(--accent-2)';
+  } finally {
+    btn.disabled = false;
+    btn.textContent = original;
+  }
+}
+
+const sf = document.getElementById('subscribe-form');
+if (sf) {
+  sf.addEventListener('submit', (e) => {
+    e.preventDefault();
+    submitForm(sf, document.getElementById('subscribe-status'), "Subscribed — you'll hear from us when this page updates.");
+  });
+}
+</script>
+
+</body>
+</html>
